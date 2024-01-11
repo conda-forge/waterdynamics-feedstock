@@ -1,5 +1,5 @@
 {% set name = "waterdynamics" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/waterdynamics-{{ version }}.tar.gz
-  sha256: 1b77921f26e43457ffba51a6f70c6e524ab30a3e18c55e404d573f727ead13ad
+  sha256: 1469aeb0044c8804e83069d65b80978de27f7bfc38e6035d38329f075652f1db
 
 build:
   noarch: python
@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.12
+    - python >=3.9
     - setuptools >=40.9.0
     - wheel
     - pip
   run:
-    - python >=3.9,<3.12
+    - python >=3.9
     - mdanalysis >=2.0.0
     - numpy >=1.22.3
 
@@ -44,3 +44,4 @@ extra:
     - IAlibay
     - lilyminium
     - orbeckst
+    - fiona-naughton
