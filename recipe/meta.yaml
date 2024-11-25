@@ -1,13 +1,13 @@
 {% set name = "waterdynamics" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/waterdynamics-{{ version }}.tar.gz
-  sha256: 1469aeb0044c8804e83069d65b80978de27f7bfc38e6035d38329f075652f1db
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/waterdynamics-{{ version }}.tar.gz
+  sha256: ab87ca22c46db71cf72b2c5534fbd062fd853d999cee9c10587932217cd40c96
 
 build:
   noarch: python
