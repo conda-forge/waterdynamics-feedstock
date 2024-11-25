@@ -144,6 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@IAlibay](https://github.com/IAlibay/)
+* [@fiona-naughton](https://github.com/fiona-naughton/)
 * [@lilyminium](https://github.com/lilyminium/)
 * [@orbeckst](https://github.com/orbeckst/)
 
