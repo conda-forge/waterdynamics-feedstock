@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/waterdynamics-f
 
 Home: https://github.com/MDAnalysis/PathSimAnalysis
 
-Package license: GPL-3.0-or-later
+Package license: LGPL-2.1-or-later
 
 Summary: Analysis of water dynamics in molecular dynamics trajectories and water interactions with other molecules.
 
